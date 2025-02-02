@@ -7,6 +7,8 @@ from sklearn.model_selection import GridSearchCV
 from matplotlib.patches import Ellipse
 from scipy import linalg
 
+//Reference: https://scikit-learn.org/stable/auto_examples/mixture/plot_gmm_selection.html
+
 #  Load your dataset
 data = pd.read_csv("aligned_trajectory_data_z.csv")
 
