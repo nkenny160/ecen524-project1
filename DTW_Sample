@@ -5,6 +5,9 @@ from dtw import dtw
 import matplotlib.pyplot as plt
 import pandas as pd
 
+#Reference: https://dynamictimewarping.github.io/python/
+
+
 fp1="Kinesthetic_teaching_take_1.csv"
 fp2="Kinesthetic_teaching_take_3.csv"
 
