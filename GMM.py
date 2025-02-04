@@ -4,7 +4,7 @@ from sklearn.datasets import make_blobs
 from sklearn.mixture import GaussianMixture
 import pandas as pd
 
-
+# Reference: https://scikit-learn.org/stable/modules/generated/sklearn.mixture.GaussianMixture.html#sklearn.mixture.GaussianMixture
 
 Data1=pd.read_csv("aligned_trajectory_data_z.csv")
 index = Data1.index.values
